@@ -7,8 +7,8 @@ const LogoutPage = () => {
   const { logout } = useAuthContext();
   const navigate = useNavigate();
 
-  useEffect(async () => {
-    await logout();
+  useEffect(() => {
+    logout();
     navigate("/");
   }, []);
 
