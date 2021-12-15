@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar button {
+  padding: 0.8px;
+}
+
+.navbar button span {
+  height: 32px;
+  width: 32px;
+}
+
+.osa {
+  width: 50vh;
+}
+
+#spinner {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.headline {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.carpoolIntro {
+  text-align: center;
+}
+
+h1 {
+  font-size: 23px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 13px;
+}
+
+.is-active {
+  border-bottom: 1px solid orange;
+}
+
+.home {
+  margin-top: 2.8em;
+  text-align: center;
+  position: relative;
+  z-index: 100;
+}
+
+.home h1 {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 4em;
+}
+
+.clockcontainer {
+  margin-top: 5em;
+}
+
+.clock {
+  padding: 0.3em;
+  width: 22.5em;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid orange;
+}
+
+.clock > * {
+  padding: 0.4em;
+  font-size: 13px;
+}
+
+/* IMAGES */
+
+.imageCol {
+  min-width: 100%;
+}
+
+.images {
+  height: 250px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.images img {
+  height: 100%;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.ggimages {
+  height: 250px;
+  width: 100%;
+}
+
+.ggimages img {
+  height: 100%;
+  width: 100%;
+}
+
+.ggimage {
+  height: 500px;
+  width: 100%;
+}
+
+.ggimage img {
+  height: 100%;
+  width: 100%;
+}
+
+.ggimagebottom {
+  margin-top: 1em;
+  width: 100%;
+  border-radius: 6px;
+}
+
+/* TABLE */
+
+.table {
+  border-radius: 8px;
+  max-width: 40em;
+}
+
+td {
+  font-size: 12px;
+  border-style: none;
+  border-width: 0;
+}
+
+/* GRIDS */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.textGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+}
+
+.car {
+  border: 1px solid orange;
+  margin-bottom: 1em;
+  border-radius: 4px;
+  padding: 0;
+}
+
+.car p {
+  padding-left: 1em;
+}
+
+.button {
+  color: white;
+  padding: 0.5em;
+  font-size: 13px;
+  background-color: orange;
+  border: none;
+}
+
+.button:hover {
+  background-color: rgb(255, 181, 44);
+}
+
+::placeholder {
+  font-size: 13px;
+}
+
+.widecolumn {
+  min-width: 100vw;
+}
+
+@media (min-width: 999px) {
+  .pagewrapper {
+    margin: 0em 20rem;
+  }
+
+  .ggimage {
+    height: "500px";
+    width: "400px";
+  }
+
+  .widecolumn {
+    min-width: 15vh;
+  }
+
+  .home {
+    margin-top: 4.5em;
+  }
+
+  .carpoolIntro {
+    text-align: left;
+  }
+
+  .headline {
+    margin: 2em 2em;
+  }
+
+  .imageCol {
+    min-width: 50%;
+  }
+
+  .osa {
+    width: 75vh;
+  }
+}

@@ -1,0 +1,38 @@
+.navbar {
+  text-align: center;
+  margin-bottom: 2em;
+  padding-top: 2em;
+  margin-left: 1em;
+  position: relative;
+}
+
+.navbar a {
+  color: black;
+  padding: 1em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.curbitLeft,
+.curbitRight {
+  position: absolute;
+  top: 0em;
+}
+
+.curbitLeft {
+  left: 1em;
+  transform: rotate(130deg);
+}
+
+.curbitRight {
+  right: 2em;
+  transform: rotate(230deg);
+}
+
+.curbitLeft img,
+.curbitRight img {
+  height: 160px;
+  width: 130px;
+}
