@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../firebase";
 import Button from "react-bootstrap/Button";
@@ -9,6 +9,7 @@ const AddCarForm = () => {
   const inputEmail = useRef();
   const inputSeats = useRef();
   const inputFrom = useRef();
+  const [message, setMessage] = useState(null);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -35,6 +36,9 @@ const AddCarForm = () => {
     inputEmail.current.value = "";
     inputFrom.current.value = "";
     inputSeats.current.value = "";
+    setMessage(
+      "Din bil har lagts till! Uppdatera sidan för att se att det har registrerats."
+    );
   };
 
   return (
@@ -78,6 +82,8 @@ const AddCarForm = () => {
       <Button type="submit" className="button">
         Lägg till bilplatser
       </Button>
+
+      {message && <p style={{ paddingTop: "1.2em" }}>{message}</p>}
     </Form>
   );
 };

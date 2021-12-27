@@ -1,11 +1,18 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import styles from "./css/Navbar.module.css";
 
 const NavbarMobile = () => {
   return (
     <div>
-      <Navbar bg="light" expand="lg">
+      <Navbar expand="lg">
         <Container fluid>
+          <Navbar.Brand>
+            <div className={styles.kurbitMobile}>
+              <img src="/curbitskull.png" alt="kurbit" />
+            </div>
+          </Navbar.Brand>
+
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="me-auto my-2 my-lg-0">

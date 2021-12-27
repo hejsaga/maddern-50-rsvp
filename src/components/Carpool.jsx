@@ -56,7 +56,7 @@ function Carpool() {
             {data && data.length < 1 ? (
               <p>
                 Just nu så finns det inga tillgänliga bilplatser. När det finns
-                som kommer dom att dyka upp i den här listan.
+                så kommer dom att dyka upp i den här listan.
               </p>
             ) : (
               ""

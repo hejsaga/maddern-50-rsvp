@@ -74,7 +74,10 @@ function Fest() {
                       </tr>
                       <tr>
                         <td>Klädsel</td>
-                        <td>Valfri (ta med skor som ni kan gå på gräs med)</td>
+                        <td>
+                          Valfria festkläder (ta med skor som ni kan gå på gräs
+                          med)
+                        </td>
                       </tr>
                       <tr>
                         <td>Mat</td>
@@ -99,7 +102,9 @@ function Fest() {
                       <tr>
                         <td>Toastmaster</td>
                         <td>
-                          Josefin Nilsson: 072-403 9247, a.m.josefin@gmail.com
+                          Josefin Nilsson (meddela henne om du vill hålla tal,
+                          kan göras innan eller på festen): 072-403 9247,
+                          a.m.josefin@gmail.com
                         </td>
                       </tr>
                       <tr>
@@ -107,16 +112,23 @@ function Fest() {
                         <td>
                           Jag avstår från presenter men tar tacksamt emot ett
                           frivilligt bidrag till festen. Det kan swishas på
-                          plats under festkvällen.
+                          plats under festkvällen, 072-923 9453.
                         </td>
                       </tr>
                       <tr>
                         <td>Vägbeskrivning</td>
                         <td>
-                          Stockholm – Ludvika med bil E18 &amp; väg 66: 217 km,
-                          2 tim &amp; 40 min E18 &amp; väg 70: 227 km, 2 tim
-                          &amp; 55 min. Stockholm – Ludvika med tåg Via Västerås
-                          eller Borlänge cirka 3 timmar.
+                          <ul>
+                            <li>
+                              Stockholm – Ludvika med bil E18 & väg 66: 217 km,
+                              2 tim & 40 min
+                            </li>
+                            <li>E18 & väg 70: 227 km, 2 tim & 55 min.</li>
+                            <li>
+                              Stockholm – Ludvika med tåg Via Västerås eller
+                              Borlänge cirka 3 timmar.
+                            </li>
+                          </ul>
                         </td>
                       </tr>
                     </tbody>
@@ -147,7 +159,7 @@ function Fest() {
           <div className="col">
             <img
               className="w-100 h-100 rounded"
-              src="/linn2.jpeg"
+              src="/linn4.jpeg"
               alt="img of Linn"
             ></img>
           </div>

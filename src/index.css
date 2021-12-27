@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 @import "bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 body {
   margin: 0;
@@ -70,6 +71,14 @@ p {
   font-size: 4em;
 }
 
+.h1th {
+  display: inline-flex;
+}
+
+.th {
+  text-transform: none !important;
+}
+
 .clockcontainer {
   margin-top: 5em;
 }
@@ -130,6 +139,28 @@ p {
   margin-top: 1em;
   width: 100%;
   border-radius: 6px;
+}
+
+#become-member {
+  position: relative;
+}
+
+.member {
+  position: absolute;
+  top: 2em;
+  right: 1em;
+  color: white;
+  background-color: orange;
+  padding: 1.2rem;
+  border-radius: 50%;
+  height: 8rem;
+  width: 8rem;
+  box-shadow: 0px 5px 10px rgb(28, 28, 28);
+}
+
+.member p {
+  text-align: center;
+  font-size: 11px;
 }
 
 /* TABLE */

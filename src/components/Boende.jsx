@@ -35,10 +35,14 @@ function Boende() {
               eller ring på tel. 0240-13550
             </p>
             <p>
-              Rabatt: Boka på hemsidan/telefon och ange ”Linn 50år”. Dubbelrum
+              Rabatt: Boka på hemsidan/telefon och ange{" "}
+              <span style={{ fontWeight: "500" }}>”Linn 50år”</span>. Dubbelrum
               950kr, enkelrum 850kr <br></br> Frukost och fri entrè till Gymmet
               i Ludvika ingår.
-              <br></br>Obs! boka ej genom extern hotellsida.
+              <br></br>
+              <span style={{ fontWeight: "500" }}>
+                Obs! boka ej genom extern hotellsida.
+              </span>
             </p>
           </div>
         </div>

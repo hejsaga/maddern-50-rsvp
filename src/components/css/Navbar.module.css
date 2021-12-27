@@ -23,16 +23,21 @@
 
 .curbitLeft {
   left: 1em;
-  transform: rotate(130deg);
+  transform: rotate(-52deg);
 }
 
 .curbitRight {
   right: 2em;
-  transform: rotate(230deg);
+  transform: rotate(52deg);
 }
 
 .curbitLeft img,
 .curbitRight img {
   height: 160px;
   width: 130px;
+}
+
+.kurbitMobile img {
+  height: 50px;
+  width: 40px;
 }

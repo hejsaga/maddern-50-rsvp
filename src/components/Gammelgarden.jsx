@@ -82,7 +82,10 @@ function Gammelgarden() {
         <div className="row mb-3">
           <div className="col imageCol">
             <div className="ggimages">
-              <img src="/gammelgarden8.jpeg" alt="img of gammelgarden"></img>
+              <img
+                src="https://bilder.hembygd.se/ludvika/files/2015/01/Vals-Pelles-640x480.jpg?w=1024&fbclid=IwAR11cUjV63Wh2xBuIsgrRHCgVuxcobhzS-xuE85h95jaOi8QlKFKdcxVwek"
+                alt="img of gammelgarden"
+              ></img>
             </div>
           </div>
           <div className="col mt-2">
@@ -125,12 +128,18 @@ function Gammelgarden() {
           </div>
         </div>
 
-        <div className="col mt-2">
+        <div className="col mt-2" id="become-member">
           <img
             className="ggimagebottom"
             src="/gammelgarden4.jpeg"
             alt="img of gammelgarden"
           ></img>
+          <div className="member">
+            <p>
+              Bli medlem: Sätt in 250 kr på PG 527-5078 och ange namn och
+              fullständig adress.
+            </p>
+          </div>
         </div>
 
         <p className="mt-4 mb-5" style={{ textAlign: "justify" }}>

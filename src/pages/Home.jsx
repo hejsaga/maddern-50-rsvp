@@ -27,15 +27,30 @@ function Home() {
                       Linn Maddern's
                     </h1>
 
-                    <h1
-                      style={{
-                        fontSize: "4.8em",
-                        WebkitTextStroke: "2px orange",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      50th
-                    </h1>
+                    <div className="h1th">
+                      <h1
+                        style={{
+                          fontSize: "4.8em",
+                          WebkitTextStroke: "2px orange",
+                          WebkitTextFillColor: "transparent",
+                        }}
+                      >
+                        50
+                      </h1>
+
+                      <h1
+                        className="th"
+                        style={{
+                          fontSize: "4.8em",
+                          textIndent: "0.2em",
+                          WebkitTextStroke: "2px orange",
+                          WebkitTextFillColor: "transparent",
+                        }}
+                      >
+                        th
+                      </h1>
+                    </div>
+
                     <h1
                       style={{
                         fontSize: "2.5em",
@@ -65,7 +80,6 @@ function Home() {
             )}
             {matches.large && (
               <>
-                {" "}
                 <div className="home">
                   <div className="bgwrapper">
                     <h1
@@ -76,17 +90,32 @@ function Home() {
                       Linn Maddern's
                     </h1>
 
-                    <h1
-                      style={{
-                        fontSize: "7em",
-                        letterSpacing: "0.45em",
-                        textIndent: "0.5em",
-                        WebkitTextStroke: "2px orange",
-                        WebkitTextFillColor: "transparent",
-                      }}
-                    >
-                      50th
-                    </h1>
+                    <div className="h1th">
+                      <h1
+                        style={{
+                          fontSize: "7em",
+                          letterSpacing: "0.45em",
+                          textIndent: "0.5em",
+                          WebkitTextStroke: "2px orange",
+                          WebkitTextFillColor: "transparent",
+                        }}
+                      >
+                        50
+                      </h1>
+                      <h1
+                        className="th"
+                        style={{
+                          fontSize: "7em",
+                          letterSpacing: "0.45em",
+                          textIndent: "0.3em",
+                          WebkitTextStroke: "2px orange",
+                          WebkitTextFillColor: "transparent",
+                        }}
+                      >
+                        th
+                      </h1>
+                    </div>
+
                     <h1
                       style={{
                         fontSize: "3em",
