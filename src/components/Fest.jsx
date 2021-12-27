@@ -44,12 +44,25 @@ function Fest() {
                   frivilligt bidrag till festen. Det kan swishas på plats under
                   festkvällen.
                 </p>
-                <p>
-                  Vägbeskrivning: Stockholm – Ludvika med bil E18 &amp; väg 66:
-                  217 km, 2 tim &amp; 40 min E18 &amp; väg 70: 227 km, 2 tim
-                  &amp; 55 min. Stockholm – Ludvika med tåg Via Västerås eller
-                  Borlänge cirka 3 timmar.
-                </p>
+
+                <p>Vägbeskrivning:</p>
+                <ul>
+                  <li>
+                    <p>
+                      Stockholm – Ludvika med bil E18 & väg 66: 217 km, 2 tim &
+                      40 min
+                    </p>
+                  </li>
+                  <li>
+                    <p>E18 & väg 70: 227 km, 2 tim & 55 min.</p>
+                  </li>
+                  <li>
+                    <p>
+                      Stockholm – Ludvika med tåg Via Västerås eller Borlänge
+                      cirka 3 timmar.
+                    </p>
+                  </li>
+                </ul>
               </div>
             )}
             {matches.large && (

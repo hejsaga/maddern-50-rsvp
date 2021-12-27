@@ -85,6 +85,7 @@ function Gammelgarden() {
               <img
                 src="https://bilder.hembygd.se/ludvika/files/2015/01/Vals-Pelles-640x480.jpg?w=1024&fbclid=IwAR11cUjV63Wh2xBuIsgrRHCgVuxcobhzS-xuE85h95jaOi8QlKFKdcxVwek"
                 alt="img of gammelgarden"
+                style={{ borderRadius: "4px" }}
               ></img>
             </div>
           </div>
