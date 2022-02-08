@@ -42,7 +42,7 @@ function Fest() {
                 <p>
                   Presenter: Jag avstår från presenter men tar tacksamt emot ett
                   frivilligt bidrag till festen. Det kan swishas på plats under
-                  festkvällen.
+                  festkvällen, 073-923 9453.
                 </p>
 
                 <p>Vägbeskrivning:</p>
@@ -125,7 +125,7 @@ function Fest() {
                         <td>
                           Jag avstår från presenter men tar tacksamt emot ett
                           frivilligt bidrag till festen. Det kan swishas på
-                          plats under festkvällen, 072-923 9453.
+                          plats under festkvällen, 073-923 9453.
                         </td>
                       </tr>
                       <tr>

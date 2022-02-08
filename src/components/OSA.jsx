@@ -80,8 +80,8 @@ function OSA() {
               <label>
                 <p>
                   Här svarar du om du kommer eller inte. Om ja, ska du också
-                  ange vilken dryckespreferens (öl/vin) du/ditt sällskap har
-                  samt eventuella allergier.
+                  ange vilken dryckespreferens (öl/rött eller vitt vin) samt om
+                  du/ditt sällskap har eventuella allergier.
                 </p>
               </label>
               <textarea

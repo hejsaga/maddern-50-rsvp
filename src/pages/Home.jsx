@@ -31,8 +31,7 @@ function Home() {
                       <h1
                         style={{
                           fontSize: "4.8em",
-                          WebkitTextStroke: "2px orange",
-                          WebkitTextFillColor: "transparent",
+                          color: "orange",
                         }}
                       >
                         50
@@ -43,8 +42,7 @@ function Home() {
                         style={{
                           fontSize: "4.8em",
                           textIndent: "0.2em",
-                          WebkitTextStroke: "2px orange",
-                          WebkitTextFillColor: "transparent",
+                          color: "orange",
                         }}
                       >
                         th
@@ -55,8 +53,6 @@ function Home() {
                       style={{
                         fontSize: "2.5em",
                         fontWeight: "100",
-                        WebkitTextStroke: "2px black",
-                        WebkitTextFillColor: "transparent",
                       }}
                     >
                       anniversary
@@ -96,8 +92,7 @@ function Home() {
                           fontSize: "7em",
                           letterSpacing: "0.45em",
                           textIndent: "0.5em",
-                          WebkitTextStroke: "2px orange",
-                          WebkitTextFillColor: "transparent",
+                          color: "orange",
                         }}
                       >
                         50
@@ -108,8 +103,7 @@ function Home() {
                           fontSize: "7em",
                           letterSpacing: "0.45em",
                           textIndent: "0.3em",
-                          WebkitTextStroke: "2px orange",
-                          WebkitTextFillColor: "transparent",
+                          color: "orange",
                         }}
                       >
                         th
@@ -122,8 +116,6 @@ function Home() {
                         fontWeight: "100",
                         letterSpacing: "0.18em",
                         textIndent: "0.3em",
-                        WebkitTextStroke: "2px black",
-                        WebkitTextFillColor: "transparent",
                       }}
                     >
                       anniversary
